@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="bootstrap.css" />
+    <script src="index.js" defer></script>
+  </head>
+  <body style="background: #041e50">
+    <div class="container-fluid">
+      <div class="container mt-5">
+        <div id="container" class="mt-4">
+          <h5 class="heading m-3">Simple Quiz</h5>
+          <hr style="height: 2px; background: #041e50" />
+
+          <ul id="question-container1">
+            <h6>Q1.&nbsp;&nbsp;What is the capital of France?</h6>
+    <button class="answer" id="Q1op1">London</button>
+         <button class="answer" id="Q1op2">Berlin</button>
+ <button class="answer" id="Q1op3">Paris</button>
+ <button class="answer" id="Q1op4">Madrid</button>
+
+            
+          <div class="d-flex justify-content-center m-3">
+            <button type="submit" value="button" class="btnNext mt-2" onclick="Nextquestion()">
+              Next
+            </button>
+          </div>
+          </ul>
+          <ul id="question-container2" hidden>
+            <h6>Q2.&nbsp;&nbsp;Which planet is known as the "Red Planet"?</h6>
+           <button class="answer" id="Q2op1">Venus</button>
+            <button class="answer" id="Q2op2">Mars</button>
+
+            <button class="answer" id="Q2op3">Jupiter</button>
+
+      <button class="answer" id="Q2op4">Saturn</button>
+
+            <div class="d-flex justify-content-center m-3">
+              <button type="submit" value="button" class="btnNext mt-2" onclick="Nextquestion2()">
+                Next
+              </button>
+            </div>
+          </ul>
+
+          <ul id="question-container3" hidden>
+            <h6>Q3.&nbsp;&nbsp;What is the process by which plants make their own food using sunlight?</h6>
+      <button class="answer" id="Q3op1"> Photosynthesis</button></a>
+         <button class="answer" id="Q3op2">Respiration</button></a>
+
+          <button class="answer" id="Q3op3">Digestion</button></a>
+
+          <button class="answer" id="Q3op4">Transpiration</button></a>
+
+            <div class="d-flex justify-content-center m-3">
+              <button type="submit" value="button" class="btnNext mt-2" onclick="Nextquestion3()">
+                Next
+              </button>
+            </div>
+          </ul>
+
+          <ul id="question-container4" hidden>
+            <h6>Q4.&nbsp;&nbsp; What is the tallest mountain in the world?</h6>
+         <button class="answer" id="Q4op1">Mount Kilimanjaro</button></a>
+          <button class="answer" id="Q4op2">Mount Everest</button>
+
+           <button class="answer" id="Q4op3">Mount McKinley (Denali)</button></a>
+ <button class="answer" id="Q4op4">Mount Fuji</button></a>
+
+            <div class="d-flex justify-content-center m-3">
+              <button type="submit" value="button" class="btnNext mt-2" onclick="Nextquestion4()">
+                Next
+              </button>
+            </div>
+          </ul>
+
+          <!-- <div class="d-flex justify-content-center mb-3">
+            <button type="submit" value="button" class="btnNext mt-2" onclick="Nextquestion()">
+              Next
+            </button>
+          </div> -->
+
+          
+          <ul id="question-container5" hidden>
+            <h6>Q5.&nbsp;&nbsp;What is the largest organ in the human body?</h6>
+            <button class="answer" id="Q5op1">liver</button></a>
+             <button class="answer" id="Q5op2">brain</button></a>
+ <button class="answer" id="Q5op3">Skin</button></a>
+ <button class="answer" id="Q5op4">heart</button></a>
+
+            <div class="d-flex justify-content-center m-3">
+              <button type="submit" value="button" class="btnNext mt-2" onclick="displayresult()">
+                Next
+              </button>
+            </div>
+          </ul>
+
+
+    
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
